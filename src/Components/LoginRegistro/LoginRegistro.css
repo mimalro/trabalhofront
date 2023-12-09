@@ -1,0 +1,134 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    columns: purple;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 61px;
+    height: 6px;
+    background: purple;
+    border-radius: 9px;
+
+}
+
+.inputs{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: blueviolet;
+    border-radius: 6px;
+}
+.input ::placeholder{
+    color: white;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.forgot-pass{
+    padding-left: 62px;
+    margin-top: 7px;
+    color: lightgray;
+    font-size: 18px;
+}
+
+.forgot-pass span{
+    color: lightskyblue;
+    cursor: pointer;
+}
+#forgot{
+    margin-left: 10%
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin : 30px auto
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: blueviolet;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray{
+    background: #EAEAEA;
+    color: #676767
+}
+
+#Login{
+    margin-left: 60px;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: blueviolet;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+#Clear{
+    margin-left: 40px;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: blueviolet;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+.form{
+
+display: flex;
+margin-right: 50px;
+        
+}
